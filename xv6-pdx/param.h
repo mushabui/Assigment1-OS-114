@@ -15,3 +15,6 @@
 #else
 #define FSSIZE       1000  // size of file system in blocks
 #endif // PDX_XV6
+#ifdef CS333_P2
+#define DEFAULTID     0  // default ID for UID/GID of process
+#endif // CS333_P2
